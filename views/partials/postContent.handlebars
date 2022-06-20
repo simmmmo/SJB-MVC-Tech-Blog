@@ -1,0 +1,14 @@
+ <div class="my-3 p-3 bg-body rounded shadow-sm">
+      <h3 class="d-flex mb-3 pb-2 border-bottom blog-title-container">
+      <span class="blog-title">{{title}}</span>
+      <span class="meta-data">Posted by {{user.username}} on {{format_date created_at}}</span>
+    </h2>
+    <div class="d-flex pt-3">
+        <p class="pb-3 mb-0 border-bottom">
+        {{body_content}}
+      </p>
+    </div>
+    <small class="d-block mt-3">
+      {{comments.length}} Comments
+    </small>
+  </div>

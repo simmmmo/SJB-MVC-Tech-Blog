@@ -1,0 +1,17 @@
+[
+  {
+    "title": "My Blog Title 1",
+    "body_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare convallis tortor, a viverra ex tempor ac. Donec rutrum nulla vel ante aliquet scelerisque. Duis vitae eros quis arcu facilisis venenatis. Aenean at tortor luctus ex tincidunt sodales. Sed in interdum massa. Curabitur vehicula magna ac purus maximus tincidunt. Vivamus quam mauris, pretium sit amet lacus ut, scelerisque vestibulum lorem. Nunc tempus eu libero non consectetur. Etiam sit amet augue at nulla suscipit dapibus ac non mi.",
+    "user_id": 1
+  },
+  {
+    "title": "My Blog Title 2",
+    "body_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare convallis tortor, a viverra ex tempor ac. Donec rutrum nulla vel ante aliquet scelerisque. Duis vitae eros quis arcu facilisis venenatis. Aenean at tortor luctus ex tincidunt sodales. Sed in interdum massa. Curabitur vehicula magna ac purus maximus tincidunt. Vivamus quam mauris, pretium sit amet lacus ut, scelerisque vestibulum lorem. Nunc tempus eu libero non consectetur. Etiam sit amet augue at nulla suscipit dapibus ac non mi.",
+    "user_id": 2
+  },
+  {
+    "title": "My Blog Title 3",
+    "body_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare convallis tortor, a viverra ex tempor ac. Donec rutrum nulla vel ante aliquet scelerisque. Duis vitae eros quis arcu facilisis venenatis. Aenean at tortor luctus ex tincidunt sodales. Sed in interdum massa. Curabitur vehicula magna ac purus maximus tincidunt. Vivamus quam mauris, pretium sit amet lacus ut, scelerisque vestibulum lorem. Nunc tempus eu libero non consectetur. Etiam sit amet augue at nulla suscipit dapibus ac non mi.",
+    "user_id": 3
+  }
+]

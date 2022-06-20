@@ -1,0 +1,23 @@
+<div class="row p-2">
+       <h4>Edit Post: {{post.title}}</h3>
+</div>
+ <div class="my-3 p-3 bg-body rounded shadow-sm">
+    <div class="d-flex">
+<form class="form edit-post-form">
+      <div class="form-group">
+        <label for="post-title">Title:</label>
+        <input class="form-input" type="text" id="edit-post-title" name="post-title" value="{{post.title}}"/>
+      </div>
+      <div class="form-group">
+        <label for="post-content">Content:</label>
+        <textarea class="form-input" type="text" id="edit-post-content" name="post-content" rows="20" > {{post.body_content}}</textarea>
+      </div>
+      <div class="form-group d-flex justify-content-between align-items-center ">
+        <button type="submit" class="btn btn-primary" id="edit-btn">Update Post</button>
+        <button type="submit" class="btn btn-outline-danger" id="delete-btn">Delete Post</button>
+      </div>
+    </form>
+    </div>
+  </div>
+
+<script src="/js/edit.js"></script>

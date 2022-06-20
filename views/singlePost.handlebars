@@ -1,0 +1,25 @@
+{{> postContent posts}}
+
+ {{#if posts.comments.length}}
+ <div class="row p-2">
+       <h4>Comments:</h3>
+</div>
+{{/if}}
+{{> postComment posts.comments}}
+
+ {{#if logged_in}}
+<form class="form new-comment-form">
+    <div class="form-group">
+    <label for="body-comment">Comment:</label>
+    <textarea class="form-input" name="body-comment" id="body-comment" ame="body-comment"></textarea>
+  </div>
+  <div class="form-group">
+    <button type="submit" id="create-btn" class="btn btn-primary" >Add comment</button>
+  </div>
+</form>
+{{/if}}
+
+
+ {{#if logged_in}}
+<script src="/js/comments.js"></script>
+{{/if}}

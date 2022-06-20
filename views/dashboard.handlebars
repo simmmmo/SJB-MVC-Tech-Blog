@@ -1,0 +1,50 @@
+ {{#if posts.length}}
+ <div class="row">
+       <h3>Your Posts:</h3>
+</div>
+{{#each posts as |post|}}
+<div class="row">
+  <div class="my-3 p-3 bg-body rounded shadow-sm">
+   <div class="lh-1">
+    <h3 class="d-flex mb-3 pb-2 blog-title-container">
+      <span><a href="/post/{{post.id}}" class="blog-title">{{post.title}}</a></span>
+      <span class="meta-data">{{format_date created_at}}</span>
+    </h3>
+    <small class="d-block mt-2">
+      <a href="/post/{{id}}">View</a><span> | </span> <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit</a>
+    </small>
+    </div>
+  </div>
+</div>
+{{/each}}
+{{else}}
+<div class="row">
+  <h6 class="pb-4 has-text-centered is-italic">You do not currently have any posts</h6>
+</div>
+{{/if}}
+ <div class="row"  id="new-post-row">
+       <h3 class="pt-4">Create a New Post:</h3>
+  <div class="my-3 p-3 bg-body rounded shadow-sm">
+    <form class="form new-post-form row p-2">
+      <div class="form-group">
+        <label for="post-title">Title:</label>
+        <input class="form-input" type="text" id="post-title" name="post-title" />
+      </div>
+      <div class="form-group">
+        <label for="post-content">Content:</label>
+        <textarea class="form-input" type="text" id="post-content" name="post-content"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" id="create-btn">Create</button>
+        <button class="btn btn-secondary" id="cancel-post-button">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+ <div class="row">
+  <div class="text-center">
+      <button class="btn btn-primary" id="new-post-button">+ New Post</button>
+  </div>
+</div>
+
+<script src="./js/dashboard.js"></script>

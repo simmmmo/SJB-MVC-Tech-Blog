@@ -81,7 +81,7 @@ npm run seed
 
 ###### Heroku Environment
 
-- https://github.com/simmmmo/SJB-ORM-E-Commerce
+-
 
 ###### Additional information
 

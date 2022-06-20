@@ -16,15 +16,15 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ###### Home Page & Login
 
-<!-- ![exampleOfCreateDBSseedDateStartServer](./assets/CreateDBSseedDateStartServer.gif) -->
+![exampleOfHomeSignupDashboard](./assets/HomeSignupDashboard.gif)
 
 ###### View Blog & Add Comment
 
-<!-- ![exampleOfCreateDBSseedDateStartServer](./assets/CreateDBSseedDateStartServer.gif) -->
+![exampleOfViewPostAddComment](./assets/ViewPostAddComment.gif)
 
-###### Dashboard, Add New Post & Delete Post
+###### Dashboard, Add New Post, Edit Post & Delete Post
 
-<!-- ![exampleOfGETreponseforSingle](./assets/GETreponseforSingle.gif) -->
+![exampleOfAddEditDeletePost](./assets/add-edit-deletePost.gif)
 
 ## Installation
 
@@ -81,7 +81,7 @@ npm run seed
 
 ###### Production Environment (Heroku)
 
--
+- https://mvc-techblog-sjb.herokuapp.com/
 
 ###### Additional information
 
@@ -112,4 +112,4 @@ npm run seed
 
 ###### Heroku Environment
 
--
+- https://mvc-techblog-sjb.herokuapp.com/

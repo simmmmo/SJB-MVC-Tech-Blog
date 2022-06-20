@@ -16,15 +16,15 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ###### Home Page & Login
 
-![exampleOfCreateDBSseedDateStartServer](./assets/CreateDBSseedDateStartServer.gif)
+<!-- ![exampleOfCreateDBSseedDateStartServer](./assets/CreateDBSseedDateStartServer.gif) -->
 
 ###### View Blog & Add Comment
 
-![exampleOfCreateDBSseedDateStartServer](./assets/CreateDBSseedDateStartServer.gif)
+<!-- ![exampleOfCreateDBSseedDateStartServer](./assets/CreateDBSseedDateStartServer.gif) -->
 
 ###### Dashboard, Add New Post & Delete Post
 
-![exampleOfGETreponseforSingle](./assets/GETreponseforSingle.gif)
+<!-- ![exampleOfGETreponseforSingle](./assets/GETreponseforSingle.gif) -->
 
 ## Installation
 
@@ -79,7 +79,7 @@ npm run seed
 
 ## Usage
 
-###### Heroku Environment
+###### Production Environment (Heroku)
 
 -
 
@@ -94,7 +94,8 @@ npm run seed
 - MySQL2
 - Sequelize
 - dotenv
-- Handlebars
+- bcrypt
+- express-handlebars
 - express-session
 - connect-session-sequelize
 
@@ -111,4 +112,4 @@ npm run seed
 
 ###### Heroku Environment
 
-- https://github.com/simmmmo/SJB-ORM-E-Commerce
+-

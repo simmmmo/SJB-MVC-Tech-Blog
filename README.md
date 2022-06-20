@@ -94,6 +94,7 @@ npm run seed
 - MySQL2
 - Sequelize
 - dotenv
+- Handlebars
 - express-session
 - connect-session-sequelize
 

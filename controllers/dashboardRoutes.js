@@ -42,44 +42,6 @@ router.get('/', withAuth, async (req, res) => {
   }
 });
 
-// router.get('/edit/:id', withAuth, async (req, res) => {
-//   try {
-//     const postData = await Post.findAll({
-//       where: {
-//         id: req.params.id
-//       },
-//       attributes:['id', 'title', 'body_content', 'created_at'],
-//       include: [
-//         {
-//           model: Comment,
-//           attributes: ['id', 'body_comment', 'user_id', 'post_id', 'created_at'],
-//           include: [
-//             {
-//               model: User,
-//               attributes: ['username'],
-//             },
-//           ],
-//         },
-//       ],
-//     });
-//     // const post = postData.map((postData) => {
-//     //   return postData.get({ plain: true });
-//     // });
-//     const post = postData.get({ plain: true });
-//     // const post = postData.map((postData) => postData.get({ plain: true }));
-//     // console.log(postData);
-//     console.log(post);
-//     console.log(post.title);
-//     res.render('editPost', {
-//       post,
-//       logged_in: true
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
-
-
 router.get('/edit/:id', withAuth, async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id, {

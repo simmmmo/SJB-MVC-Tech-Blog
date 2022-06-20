@@ -19,23 +19,6 @@ router.post('/', withAuth, async (req, res) => {
 router.get('/', async (req, res) => {
   try {
     const commentData = await Comment.findAll({
-      // where: {
-      //   user_id: req.session.user_id
-      // },
-      // attributes:['id', 'title', 'body_content', 'user_id', 'created_at'],
-      // order: [['created_at', 'DESC']],
-      // include: [
-      //   {
-      //     model: Comment,
-      //     attributes: ['id', 'body_comment', 'user_id', 'post_id', 'created_at'],
-      //     include: [
-      //       {
-      //         model: User,
-      //         attributes: ['username'],
-      //       },
-      //     ],
-      //   },
-      // ],
     });
     res.status(200).json(commentData);
   } catch (err) {

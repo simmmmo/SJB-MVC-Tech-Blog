@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
+This application is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. A user can add, edit and delete thier posts.
 
 ## User Story
 
@@ -37,19 +37,13 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
   [express package](https://www.npmjs.com/package/express)
 
 ```bash
-npm i
+npm install
 ```
 
-```bash
-npm i sequelize
-```
+- Ensure all additional packages have been installed
 
 ```bash
-npm i mysql2
-```
-
-```bash
-npm i dotenv
+npm install <package-name>
 ```
 
 - Create .env file in the root directory and add local SQL credentials
@@ -85,7 +79,10 @@ npm run seed
 
 ###### Additional information
 
-- Note - Before starting local application, ensure MySQL credentials have been updated in .env
+Notes
+
+- Before starting local application, ensure MySQL credentials have been updated in .env.
+- User password must be at least 8 characters when creating a new user account
 
 ## Technology
 
@@ -98,6 +95,7 @@ npm run seed
 - express-handlebars
 - express-session
 - connect-session-sequelize
+- Heroku (using JawsDB addon)
 
 ## Project Links
 

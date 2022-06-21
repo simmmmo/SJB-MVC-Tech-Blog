@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: #101010;
@@ -62,26 +66,13 @@ p {
   margin-bottom: 6px;
 }
 
-/* .btn.btn-primary {
-  background-color: #2d3e50;
-  color: #d9e9e8;
+.bg-light {
+  background-color: #f0f3f6 !important;
 }
 
-.btn.btn-primary:hover {
-  background-color: #2d3e50;
-  color: #d9e9e8;
-}
-
-.btn.btn-secondary {
-  background-color: #2d3e50;
-  color: #d9e9e8;
-}
-
-.btn.btn-secondary:hover {
-  background-color: #2d3e50;
-  color: #d9e9e8;
-} */
-
+/*------------------------------------*\
+    #Buttons
+\*------------------------------------*/
 
 .btn-primary {
   background-color: #3fa4dd !important;
@@ -131,23 +122,18 @@ p {
   background: #3fa4dd;
 }
 
-
-.blog-title{
-  font-weight: normal;
-	color: #3fa4dd;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
-}
+/*------------------------------------*\
+    #Nav
+\*------------------------------------*/
 
 .nav-link {
   font-size: 16px;
   text-transform: uppercase;
 }
 
-.bg-light {
-  background-color: #f0f3f6 !important;
-}
+/*------------------------------------*\
+    #Add new post - Styling 
+\*------------------------------------*/
 
 #new-post-row {
   display: none;
@@ -161,8 +147,16 @@ p {
   display: flex!important;
 }
 
-form .form-group {
-  margin: 0 0;
+/*------------------------------------*\
+    #Additional Typography Styling
+\*------------------------------------*/
+
+.blog-title{
+  font-weight: normal;
+	color: #3fa4dd;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .comment-text {
@@ -182,6 +176,14 @@ small {
 small span {
   margin: 0 7px;
   color: #aaaaaa;
+}
+
+/*------------------------------------*\
+    #Forms
+\*------------------------------------*/
+
+form .form-group {
+  margin: 0 0;
 }
 
 form input, form select {
@@ -205,11 +207,19 @@ form textarea {
   padding: 15px;
 }
 
+/*------------------------------------*\
+    #Blog Title - Mobile styling
+\*------------------------------------*/
 
 .blog-title-container {
   flex-direction: column;
   justify-content: flex-start;
 }
+
+/*------------------------------------*\
+    #Blog Title - Desktop styling
+\*------------------------------------*/
+
 
 @media (min-width: 576px){
   .blog-title-container {
